@@ -6,10 +6,24 @@ body {
     flex-direction: column;
 }
 
-.hero {
-    background-color: #1f2937;
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 700;
+    margin: 0;
 }
 
+/* This is the styling for the hero section */
+.hero {
+    background-color: #1f2937;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+}
+
+/* Syles for the header */
 .header {
     display: flex;
     padding: 0px 200px;
@@ -17,12 +31,13 @@ body {
 
 .header p {
     font-size: 24px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
 .header ul {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #c0c2c4;
     display: flex;
     list-style-type: none;
     gap: 20px;
@@ -31,27 +46,38 @@ body {
 .headerLinks {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 
 .heroContent {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 0px 200px;
 }
 
-h1 {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
-}
-
+/* Styles for the hero content */
 .heroInfo {
-    width: 500px;
+    width: 450px;
     display: flex;
     flex-direction: column;
-    margin: 14px;
+    margin-right: auto;
 }
 
 .heroInfo p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #c0c2c4;
+    margin: 0;
+}
+
+.heroInfo button {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #3882F6;
+    color: white;
+    width: 110px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
 }
